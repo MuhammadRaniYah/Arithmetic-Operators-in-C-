@@ -1,0 +1,111 @@
+using System;
+
+class Program
+{
+    static void Main()
+    {
+
+        // {                                                                                                    }
+        // {    This examples and tutorial was made by Muhammad S. RaniYah that published on Youtube channel    }
+        // {    Named  " KRD TECH ". Thanks  for  enrolling. Please  don't forget  to like  and  subscribe !    }
+        // {    Link of My YouTube Channel : https://www.youtube.com/MuhammadSRaniYah                           }
+        // {                                                                                                    }
+
+
+        // Arithmetic Operators: are the symbols that represent arithmetic math operations.
+        // Examples include (  - ,  +  ,  /  ,  *  ,  %  ,  ++  ,  --  ) 
+
+        /*
+        int FirstNumber = 20;
+        int SecondNumber = 7;
+        double Addition = ((double)FirstNumber + (double)SecondNumber)/2;
+        int Subtraction = (FirstNumber - SecondNumber)*2;
+        int Multiplication = (FirstNumber * SecondNumber)/7;
+        double Division = ((double)FirstNumber / (double)SecondNumber);
+        Console.WriteLine("The answers are:");
+        Console.WriteLine(Addition);
+        Console.WriteLine(Subtraction);
+        Console.WriteLine(Multiplication);
+        Console.WriteLine(Division);
+        Console.ReadLine(); 
+        
+        */
+
+
+
+
+        // Increment operator ++ 
+
+
+        /*
+        int x = 5;
+        Console.WriteLine(x);
+        Console.WriteLine(x);
+        Console.WriteLine(x);
+        Console.ReadLine();
+        */
+
+
+
+
+
+        // Decrement operator --
+
+
+        /*
+        int x = 5;
+        Console.WriteLine(x);
+        Console.WriteLine(x);
+        Console.WriteLine(x);
+        Console.ReadLine();
+
+
+        */
+
+
+
+
+        // Compound assignment with arithmetic operators 
+
+        int a = 5;
+        int b = 20;
+        a += 9;
+        Console.WriteLine(a);  // output: 14
+
+        a -= 4;
+        Console.WriteLine(a);  // output: 10
+
+        a *= 2;
+        Console.WriteLine(a);  // output: 20
+
+        a /= 4;
+        Console.WriteLine(a);  // output: 5
+
+        a %= 3;
+        Console.WriteLine(a);  // output: 2
+
+        a += b;                // output: 22 because the lastest value of a is 2 then we say (+= b), that is mean 2+20 which equals 22. 
+        Console.WriteLine(a);
+        Console.ReadLine();
+
+
+
+
+        // Remainder operator % :
+
+        /*     Integer remainder For the operands of integer types, the result of ( a % b ) is 
+               the value produced by a - (a / b) * b 
+               The sign of the non-zero remainder is the same as that of the first operand,
+               as the following example shows:                                                       */
+
+        /*
+        int Reminder = 10 % 20;
+        Console.WriteLine(Reminder);
+        int Remindercalculated = 10 - (10 / 20) * 20;
+        Console.WriteLine(Remindercalculated);
+        Console.ReadLine();
+        */
+
+    }
+}
+
